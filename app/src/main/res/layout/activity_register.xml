@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF8785"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/white_background"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="NEW USER REGISTRATION"
+            android:textAlignment="center"
+            android:textColor="@color/mainBackground"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/et_fn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Full Name"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+
+            android:inputType="textPersonName"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/et_pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="PinCode"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/et_phn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Age"
+            android:inputType="number"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_clg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="College/School Name"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_startLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Start Location"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_endLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/edittext_best_design"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="End Location"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <Button
+                android:id="@+id/bt_signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/light_blue"
+                android:text="Create My Account"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/bt_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/very_ligh_blue"
+                android:text="Go To Home Page"
+                android:textColor="#3F51B5"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
